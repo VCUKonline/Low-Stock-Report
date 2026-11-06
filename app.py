@@ -2,7 +2,7 @@ from datetime import datetime
 import pandas as pd
 import streamlit as st
 
-from inventory_report import build_report, report_metadata, send_whatsapp_report, get_setting
+from inventory_report_updated import build_report, report_metadata, send_whatsapp_report, get_setting
 
 st.set_page_config(page_title="Shopify Stock & Sales Dashboard", page_icon="📦", layout="wide")
 st.title("Shopify Stock & Sales Dashboard")
